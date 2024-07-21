@@ -1,0 +1,15 @@
+.cont-fav {
+  position: relative;
+  width: auto; /* Ajusta el ancho según necesites */
+  height: 400px; /* Ajusta la altura según necesites */
+  background-image: url("https://i.pinimg.com/originals/3f/b4/79/3fb479f2c7f23497371f58588edfa19d.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.absolute-mode {
+  position: absolute;
+}
