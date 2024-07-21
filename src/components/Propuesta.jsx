@@ -18,22 +18,14 @@ const Propuesta = () => {
 
   return (
     <div className="cont-fav">
-      {favoritos ? (
-        <Button
-          className="absolute-mode"
-          size="lg"
-          color="primary"
-          onClick={sendMessage}
-        >
-          Enviar prouesta a alguien 📩
-        </Button>
-      ) : (
-        <Card>
-          <CardBody>
-            <p>Aún no tienes peliculas agregadas.</p>
-          </CardBody>
-        </Card>
-      )}
+      <Button
+        className="absolute-mode"
+        size="lg"
+        color="primary"
+        onClick={sendMessage}
+      >
+        Enviar prouesta a alguien 📩
+      </Button>
     </div>
   );
 };
